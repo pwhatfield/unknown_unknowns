@@ -162,7 +162,7 @@ chain=model_res.INFO.chain
 chain=chain.reshape((nwalkers*steps, np.shape(chain)[2]))
 
 
-plt.figure()
+plt.figure(3)
 n_bins=50
 n_vals=np.zeros([number_probes,n_bins])
 bin_vals=np.zeros([number_probes,n_bins+1])
@@ -183,7 +183,7 @@ for i in range(number_probes):
 
 
 
-plt.figure()
+plt.figure(4)
 
 
 pb.plot(bins_final[:n_bins],n_final[0:n_bins]/np.max(n_final[0:n_bins]),'b',label=r"Conservative Estimate")

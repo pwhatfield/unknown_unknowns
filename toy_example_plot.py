@@ -104,4 +104,4 @@ pb.xscale("linear")
 pb.yscale("linear")
 
 # Save figure
-pb.savefig(main_directory+'unknown_unknown_figure.pdf')
+pb.savefig(main_directory+'toy_figure.pdf')
